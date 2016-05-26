@@ -1,0 +1,42 @@
+.current-mood__smile + .current-mood__caption {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.current-mood__caption + .current-mood__thanks {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.current-mood__caption {
+  font-weight: 600;
+}
+
+.mood-changer {
+  background-color: #FFF;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.mood-changer__header {
+  font-weight: 600;
+  color: #6F6C6C;
+}
+
+.mood-changer__smiles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media(max-width: 480px) {
+  .mood-changer__smiles {
+    flex-direction: column;
+  }
+}
+
+.mood-changer__smiles img {
+  cursor: pointer;
+}

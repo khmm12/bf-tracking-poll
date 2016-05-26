@@ -1,0 +1,9 @@
+{
+  "presets": ["es2015", "stage-0", "react"],
+  "plugins": ["transform-decorators-legacy", ["transform-runtime", { "polyfill": false }],
+    ["transform-async-to-module-method", {
+      "module": "bluebird",
+      "method": "coroutine"
+    }]
+  ]
+}

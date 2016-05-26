@@ -1,0 +1,33 @@
+:root {
+  --header-background-color: #166E78;
+  --header-logo-width: 36px;
+}
+
+.header {
+  background-color: var(--header-background-color);
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 3rem;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2px 10px;
+}
+
+.header__logo {
+  width: var(--header-logo-width);
+  height: var(--header-logo-width);
+}
+
+.header__logo img {
+  vertical-align: initial;
+}
+
+.header__brand {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  left: calc(-var(--header-logo-width) / 2)
+}
