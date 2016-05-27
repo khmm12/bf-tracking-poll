@@ -66,6 +66,9 @@
     "build:server": "cd ./src && babel . -d ../src --ignore node_modules",
     "build:front": "webpack --config ./webpack/config.js --progress"
   },
+  "engines": {
+    "node": ">=4.4.0"
+  },
   "author": "",
   "license": "ISC"
 }
